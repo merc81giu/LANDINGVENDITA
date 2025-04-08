@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vendi Casa con Grimaldi Immobiliare</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0D1B2A, #6A0DAD);
+      color: white;
+    }
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    header img {
+      height: 50px;
+    }
+    header .cta {
+      background-color: #6A0DAD;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+    .feature {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .contact {
+      padding: 40px 20px;
+      background-color: #0D1B2A;
+    }
+    .contact form {
+      max-width: 500px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .contact input, .contact textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+    }
+    .contact button {
+      background-color: #6A0DAD;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-grimaldi.png" alt="Grimaldi Immobiliare">
+    <a href="#contatti" class="cta">Valutazione Gratuita</a>
+  </header>
+
+  <section class="hero">
+    <h1>Vuoi vendere casa?</h1>
+    <p>Affidati ai professionisti di Grimaldi Immobiliare Nettuno. Vendiamo al miglior prezzo, in tempi brevi.</p>
+  </section>
+
+  <section class="features">
+    <div class="feature">3 agenzie sul territorio</div>
+    <div class="feature">12 agenti a tua disposizione</div>
+    <div class="feature">Pubblicità massiva online</div>
+    <div class="feature">Open House personalizzati</div>
+    <div class="feature">Render realistici professionali</div>
+    <div class="feature">Oltre 500 clienti in banca dati</div>
+  </section>
+
+  <section class="contact" id="contatti">
+    <h2 style="text-align:center; margin-bottom: 20px;">Richiedi una valutazione gratuita</h2>
+    <form>
+      <input type="text" placeholder="Nome e Cognome" required>
+      <input type="tel" placeholder="Telefono" required>
+      <input type="text" placeholder="Indirizzo dell'immobile" required>
+      <textarea rows="4" placeholder="Messaggio (opzionale)"></textarea>
+      <button type="submit">Invia richiesta</button>
+    </form>
+  </section>
+
+  <div class="footer">
+    Grimaldi Immobiliare Nettuno - Tel. 339 847 9331 - giuseppe@grimaldinettuno.it<br>
+    © 2025 - www.grimaldinettuno.it
+  </div>
+</body>
+</html>
